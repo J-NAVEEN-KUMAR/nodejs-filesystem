@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_task_1",
+  "version": "1.0.0",
+  "description": "Creating API endpoint which will create a text files in a particular folder and retreiving all the text files from that particular folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "J Naveen Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "express": "^4.17.2"
+  },
+  "engines": {
+    "node": "16.13.1"
+  },
+
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
